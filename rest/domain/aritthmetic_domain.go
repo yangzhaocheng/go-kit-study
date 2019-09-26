@@ -9,6 +9,6 @@ type ArithmeticRequest struct {
 // ArithmeticResponse define response struct
 type ArithmeticResponse struct {
 	Result int   `json:"result"`
-	Error  error `json:"error"`
+	Error  string `json:"error"`
 }
 

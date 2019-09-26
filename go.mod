@@ -7,6 +7,7 @@ require (
 	github.com/go-kit/kit v0.9.0
 	github.com/go-logfmt/logfmt v0.4.0 // indirect
 	github.com/gorilla/mux v1.7.3
+	github.com/hashicorp/consul/api v1.2.0 // indirect
 	github.com/hudl/fargo v1.2.1-0.20160928160052-14ced469f7dc
 	github.com/miekg/dns v1.1.18 // indirect
 	github.com/op/go-logging v0.0.0-20160315200505-970db520ece7 // indirect

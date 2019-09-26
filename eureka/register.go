@@ -16,7 +16,7 @@ func Register(port int, app string, ip string) *eureka.Registrar {
 	fargoConfig.Eureka.PollIntervalSeconds = 1
 	instance := &fargo.Instance{
 		XMLName:          struct{}{},
-		HostName:         ip,
+		HostName:         ip+":"+app+":"+strconv.Itoa(port),
 		App:              app,
 		IPAddr:           ip,
 		VipAddress:       "",
