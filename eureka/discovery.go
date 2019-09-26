@@ -30,7 +30,7 @@ func getInstancer(serviceName string) *eureka.Instancer {
 }
 
 func NewDiscoverEndpoint(ctx context.Context, logger log.Logger) endpoint.Endpoint {
-	serviceName := "user-service-consumer"
+	serviceName := "user-service-producer"
 	duration := 500 * time.Millisecond
 	//基于eureka客户端、服务名称等信息，
 	instancer := getInstancer(serviceName)
